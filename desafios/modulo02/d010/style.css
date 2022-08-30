@@ -1,0 +1,94 @@
+@charset "UT-8";
+@font-face {
+    font-family: "droid";
+    src: url(arquivos/fontes/idroid.otf) format("opentype");
+}
+body{
+    margin: 0px;
+    background-color:#84E1AD;
+    font-family: sans-serif;
+}
+main{ /* delimita a aréa do conteúdo da pag */
+    /*padding: 20px; */
+    padding: 20px;
+    text-align: left;
+    height: 2489px;
+    width: 680px;
+    margin: auto;
+    background-color:whitesmoke;
+    border-width: auto;
+}
+ article > h1{ /* delimita  a fonte dos H1 */
+    font-family: "droid";
+    color:#5FA17B;
+}
+article > h2{ /* delimita a fonte dos h2*/
+    font-family:"droid";
+    color:#5FA17B;
+    background-image: linear-gradient(to right,#84E1AD,white);
+}
+main > article{
+    text-align: start;
+}
+header{
+    color: whitesmoke;
+    margin: 0px;
+    text-align: center;
+    padding: 10px;
+    background-color: #73ee85;
+    background-image: linear-gradient(to top,#54925e,#73ee85);
+}
+header > nav{
+    text-align: start;
+    margin: auto;
+    outline: 10px;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    box-shadow: 1px 1px 3px black;
+}
+header > a:empty{
+    color: white;
+}
+nav > a:hover{
+    background-color: #1A5C38;
+    text-decoration: underline;
+}
+ picture > source{
+    width: 680px;
+}
+img{
+    width:680px;
+}
+article > img{
+    width: 680px;
+}
+  main > iframe{
+    max-width: 900px;
+    margin: auto;
+    background-color:#1A5C38 ;
+    outline: 70px #1A5C38;
+
+}
+ article > iframe{ /*vídeo */
+    margin: auto;
+    background-color:#1A5C38;
+}
+article#pin{
+    padding: 10px;
+    background:#C5EBD6;
+    border-radius: 7px;
+}
+h3{
+    background-color: #2FA866;
+    border-radius: 10px 0px 10px;
+    margin: 0px;
+}
+footer{
+    text-align: center;
+    background-color:#1A5C38;
+    color: whitesmoke;
+}

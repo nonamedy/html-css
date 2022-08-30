@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsvidade-simples</title>
+    <style>
+        body{
+            background-color:gray;
+        }
+
+        main{
+            margin: auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 20px;
+            max-width: 800px;
+            min-width: 320px; /* Valor dos antigs telefones */
+        }
+
+        img{
+            width:100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus numquam ipsum hic, ratione, dignissimos quisquam eveniet odio perferendis tempore nisi consectetur unde quos quaerat minus nesciunt. Ad eius cupiditate odio.</p>
+        <picture>
+            <source media="(max-width:600px )" srcset="arquivos/imagens/irina-blok-pq.jpg">
+            <img src="arquivos/imagens/irina-blok.jpg" alt="#">
+        </picture>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus ut exercitationem voluptatem consequuntur. Eius, sit. Voluptatibus, exercitationem aliquam consectetur tenetur nisi pariatur adipisci alias ut maxime obcaecati? Aut, perspiciatis minima.</p>
+    </main>
+</body>
+</html>
