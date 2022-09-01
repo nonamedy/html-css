@@ -84,9 +84,11 @@ nav > a{
 nav > a:hover{
     background-color: var(--cor3);
     color: var(--cor5);
-    padding: 5px;
 }
 
+nav > a:active{
+    padding: 5px;
+}
 main {
     min-width: 300px;
     max-width: 680px;
@@ -190,6 +192,10 @@ aside > ul{
     list-style-type: "\2714\00A0";
     list-style-position: inside;
     columns: 2;
+}
+
+abbr{
+    text-decoration: none;
 }
 
 
