@@ -89,6 +89,7 @@ nav > a:hover{
 nav > a:active{
     padding: 5px;
 }
+
 main {
     min-width: 300px;
     max-width: 680px;
