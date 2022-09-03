@@ -4,4 +4,4 @@
 Estou aprendendo a criar sites e agora vou gerenciar meus
 repositórios.
 
-<a href="https://nonamedy.github.io/html-css/desafios/modulo02/d010/index.html">projeto01</a>
+<a href="https://nonamedy.github.io/html-css/desafios/modulo02/d010/index.html" target="_blank">projeto01</a>
