@@ -12,6 +12,7 @@
         table{
             width: 570px;
             border-collapse: collapse;
+            position: relative;
 
         }
 
@@ -28,6 +29,11 @@
             background-color: rgb(83, 82, 82);
         }
 
+        thead{
+            position: sticky;
+            top: -1px;
+        }
+
         tbody > tr:nth-child(2n){
             background-color: rgb(107, 98, 98);
         }
@@ -40,6 +46,10 @@
 
         td.num{
             text-align:right;
+        }
+
+        tr:hover{
+            border: 2px solid rgb(14, 38, 170)
         }
 
 
