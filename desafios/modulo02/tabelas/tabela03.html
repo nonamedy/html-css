@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio-tabela</title>
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+            font-size: 1.3em;
+            text-align: center;
+        
+        }
+        th,td{
+            padding: 10px;
+            border: 1px solid black;
+       
+        }
+        .head{
+            background-color: gray;
+            color: white;
+        }
+        .section:hover{
+            background-color: rgba(49, 59, 153, 0.651);
+            color: rgba(69, 51, 129, 0.596);
+        }
+        caption{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Notas</h1>
+
+    <table>
+
+        <caption>Boletim escolar?</caption>
+
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col" class="head">Aréa</th>
+                <th rowspan="2" scope="col" class="head">Disciplinas</th>
+                <th colspan="2" scope="colgroup" class="head">Notas</th>
+                <th rowspan="2" scope="col" class="head">Média</th>
+            </tr>
+        
+            <tr>
+                <th scope="col" class="head">Nota1</th>
+                <th scope="col" class="head">Nota2</th>
+            </tr>
+        </thead>
+
+
+            <tbody>
+                <tr class="section" >
+                    <th style="background-color:white ; color: black;" rowspan="4" scope="rowgroup">Exatas</th>
+                    <td>Matemática</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr class="section">
+                    <td>Física</th>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr class="section">
+                    <td>Química</th>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr class="section">
+                    <td>Biologia</th>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr>
+                    <td colspan="4"  class="head">Média de Exatas</td>
+                    <td class="head">00</td>
+                </tr>
+                <tr class="section">
+                    <th style="background-color:white ; color:black;" rowspan="2" scope="rowgroup">Humanas</th>
+                    <td>História</td>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr class="section">
+                    <td>Geografia</th>
+                    <td>00</td>
+                    <td>00</td>
+                    <td>00</td>
+                </tr>
+                <tr>
+                    <td colspan="4" class="head">Média de Humanas</td>
+                    <td class="head">00</td>
+                </tr>
+            </tbody>
+        
+    </table>
+</body>
+</html>
