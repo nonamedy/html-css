@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        fieldset{
+            border: hidden;
+
+        }
+    </style>
+    <title>color,Range e file</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+    <h2>Testando outros tipos de input(color,range e file)</h2>
+
+    <form action="" method="get">
+
+        <fieldset>  
+            <label for="icor">
+                Cor:
+
+            </label>
+
+            <input type="color" name="cor" id="icor">
+
+        </fieldset>
+
+        <fieldset>
+
+
+            <label for="iren">
+
+                Range:
+            </label>
+
+            <input type="range" name="ran" id="iren" min="1" max="5" value="2">
+
+        </fieldset>
+
+        <fieldset>
+
+        
+
+            <label for="iarq">
+                Selecione o arquivo:
+            </label>
+
+            <input type="file" name="arq" id="iarq">
+
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
