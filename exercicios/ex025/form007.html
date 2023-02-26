@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        textarea{
+
+            width:388px;
+            height:167px;
+            resize: none;
+            border: 1px 1px solid  black ;
+            box-shadow: 1px 1px solid red;
+        }
+        textarea::placeholder{
+      
+            text-align: center;
+        }
+    </style>
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de formulários</h1>
+    <h2>Outros tipos de elementos que podem ser introduzidos num formulãrio</h2>
+
+
+    <form action="" method="get">
+
+        <p> 
+
+            <label for="iestado">
+
+            </label>
+
+            <select name="estado" id="iestado" >
+
+
+                <optgroup label="Região Sudeste">
+                    <option value="MG"> Minas gerais</option>
+                    <option value="RJ"> Rio de Janeiro</option>
+                    <option value="Sp" selected> São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região nordeste">
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">PErnanbuco</option>
+                    <option value="RN">Rio grande do norte</option>
+                </optgroup>
+
+            </select>
+        </p>
+
+        <p>
+
+            <label for="iprof">
+
+                profissão:
+    
+            </label>
+
+            <input type="text" name="prof" id="iprof" list="lstprof">
+
+            <datalist id="lstprof">
+
+                <option value="RH">Recursos Humanos</option>
+                <option value="Cont">Contador</option>
+                <option value="Dev">Desenvolvedor</option>
+                <option value="Prof"> professor</option>
+
+            </datalist>
+
+        </p>
+
+        <p>
+            
+            <label for="imsg"> 
+
+                Mensagem:
+            </label><br>
+
+            <textarea name="msg" wrap="soft" id="imsg" placeholder="Digite uma mensagem :D" cols="10" rows="10" spellcheck="true" maxlength="240" autocomplete="on" ></textarea>
+
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>
