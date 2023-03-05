@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*  Estilos pra telas*/
+
+*{
+
+    margin: 10x;
+    padding: 10px;
+    
+}
+
+html{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header{
+
+    text-align: center;
+}
+
+menu{
+
+    display: none;
+}
+
+article::after{
+    content: 'Este artigo foi impressso através do site www.haikyoo.com';
+}
