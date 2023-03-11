@@ -4,7 +4,7 @@
 
 body{
 
-    background:  blue url("../imagens/cev-landscape.jpg") ;
+    background:  #233EFF url("../imagens/cev-landscape.jpg") ;
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left bottom;

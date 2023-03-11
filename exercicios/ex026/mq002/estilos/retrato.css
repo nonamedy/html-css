@@ -3,7 +3,8 @@
 /*Configurações de retrato (portrait)*/
 
 body{
-    background:  blue url("../imagens/cev-portrait.jpg") ;
+    background: #233EFF url("../imagens/cev-portrait.jpg") ;
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: center bottom;
 }

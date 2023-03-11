@@ -19,6 +19,6 @@ html, body{
 h1{
 
     color:rgb(247, 243, 240);
-    text-align: justify;
+    text-align: left;
     text-shadow: 3px 3px 0px  rgba(19, 48, 29, 0.76);
 }
