@@ -22,6 +22,27 @@
 */
 
 @media print {
+
+    img#phone{
+        display: none;
+    }
+    img#print{
+        display: block;
+    }
+
+    main{
+        padding-top:10px;
+        margin: auto;
+
+        text-align: center;
+        display: block;
+    }
+
+    main::after{
+
+        content: 'Site criado pelo Fj para o Curso em Vídeo';
+    }
+
     
 }
 
