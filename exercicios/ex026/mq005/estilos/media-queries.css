@@ -1,0 +1,37 @@
+
+@charset "UTF-8";
+
+@media screen  and (min-width:768px){
+    span#burguer{
+
+        display: none;
+
+    }
+
+    nav#menu{
+
+        display: block;
+        
+    }
+
+    nav{
+
+        background-color: #1a3785;
+      
+    }
+
+    nav > ul > li{
+
+        display: inline-block;
+        
+   
+    }
+
+    a:hover{
+
+        padding:10px;
+        transition: 0.5;
+        color: rgba(62, 231, 70, 0.842);
+        background-color: #aaa8e08f;
+    }
+}
