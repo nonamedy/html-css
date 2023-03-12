@@ -49,6 +49,8 @@ span#burguer:hover{
 
 nav{
     display: none;
+    opacity: 0;
+    transition: 2s;
     background-color: #1a3785 ;
 }
 
