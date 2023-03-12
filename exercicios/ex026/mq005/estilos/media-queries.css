@@ -1,6 +1,10 @@
 
 @charset "UTF-8";
 
+::-webkit-scrollbar{
+    display: none;
+}
+
 @media screen  and (min-width:768px){
     span#burguer{
 
