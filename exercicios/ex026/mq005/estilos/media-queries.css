@@ -5,7 +5,24 @@
     display: none;
 }
 
-@media screen  and (min-width:768px){
+@media print{
+    *{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    main{
+
+        background-color:rgba(113, 30, 129, 0.692);
+
+    }
+    nav#menu{
+        display:none;
+    }
+
+
+}
+
+
+@media screen  and (min-width:768px){ /*  desktop*/
     span#burguer{
 
         display: none;
